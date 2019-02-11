@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
+import 'components/App.css';
 
-import Comment from './comment'
-import CommentList from './commentList'
+import Comment from 'components/comment'
+import CommentList from 'components/commentList'
 
 class App extends Component {
   render() {

@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 
-import App from './App';
-import Comment from './comment';
-import CommentList from './commentList';
+import App from 'components/App';
+import Comment from 'components/comment';
+import CommentList from 'components/commentList';
 
 
 let wrapped;
